@@ -1,0 +1,150 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+        font-family: poppins;
+        src: url(fontes/Poppins-Regular.ttf)
+}
+
+:root {
+    --cor1:#EBA256;
+    --cor2:#9E662B;
+    --cor3:#FFBE78;
+    --cor4:#ffbe7870;
+    --cor5:#9e662b9a;
+    --cor6:#006F9E;
+    --cor7:#2AB2EB;
+
+    --fonte-padrao:poppins;
+    --fonte-titulo:'pacifico',sans-serif;
+}
+
+
+body {
+
+    background-image: url(post.jpg),url(madeira.jpg);
+    background-repeat: repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    overflow-y: hidden;
+    background-position:center;
+    background-size:cover ;
+}
+
+form {
+    font-family: var(--fonte-padrao);
+    background-image:linear-gradient(to bottom,white,lightgray);
+    margin: auto;
+    margin-top: 10px;    
+    max-width: 400px;
+    min-height: 460px;
+    background-color: white;
+    box-shadow: 0px 0px 600px 100px rgb(0, 0, 0);
+    border-radius: 10px;  
+    margin-bottom: 18.4%; 
+}
+
+.nome {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--cor7);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
+}
+.h2 {
+    text-decoration: none;
+    color: var(--cor7);
+
+}
+h2 {
+    margin: 0px;
+    font-size: 2.3em;
+    font-family: var(--fonte-titulo);
+}
+h2.credenciais {
+    font-size: 1.5em;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
+}
+
+input#email {
+    font-family: var(--fonte-padrao);
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    margin: 50px 96px 10px 96px;
+    border-radius: 4px;
+    border:0px solid black;
+    box-shadow:inset 1px 1px 5px 0px rgba(0, 0, 0, 0.288);
+}
+
+input#senha {
+    font-family: var(--fonte-padrao);
+    height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    margin: 10px 96px 40px 96px;
+    border-radius: 4px;
+    border: 0px solid black;
+    box-shadow:inset 1px 1px 5px 0px rgba(0, 0, 0, 0.288);
+}
+
+p {
+    text-align: center;
+}
+#login {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#login2 {
+    background-color: var(--cor7);
+    width: 300px;
+    height: 30px;
+    border: 0px;
+    box-shadow:inset 1px 1px 10px 0px rgba(0, 0, 0, 0.288);
+    border-radius: 2px;
+    font-family: var(--fonte-padrao);
+}
+#login2:active {
+    background-color: var(--cor6);
+    box-shadow:inset 0px 0px 5px 0px rgba(0, 0, 0, 0.555);
+    color: var(--cor4); 
+}
+a.esqueceu {
+    
+    text-align: center;
+    margin: 120px;
+    text-decoration: none;
+    color: var(--cor6);
+}
+a.esqueceu:active {
+    color: red;
+}
+a.xesq {
+    text-decoration: none;
+}
+.criar:active {
+    background-color: #0512cf;
+    box-shadow:inset 0px 0px 5px 0px rgba(0, 0, 0, 0.555);
+    color: var(--cor4);
+}
+div.criar {
+    text-decoration: none;
+   color: black; 
+   text-justify: auto; 
+   margin: auto;
+   width: 200px;
+   padding: 5px;
+   text-align: center;
+   background-color: var(--cor6);
+   box-shadow:inset 0px 0px 5px 0px rgba(0, 0, 0, 0.288);
+   border-radius: 2px;
+}
